@@ -45,9 +45,9 @@ print("Jumlah huruf konsonan adalah ", konsonan)
 print("PROGRAM PENGECEKAN BILANGAN")
 
 while True:
-    masuk = input("Masukkan bilangan, kosongkan jika ingin keluar: ")
+    elkom3 = input("Masukkan bilangan, kosongkan jika ingin keluar: ")
 
-    if masuk == "":
+    if elkom3 == "":
         break
 
 
@@ -62,9 +62,9 @@ while True:
             return False
 
 
-    hasil = cek_modulo(int(masuk))
+    hasil = cek_modulo(int(elkom3))
 
     if hasil is True:
-        print("Hasil:", pangkatkan(int(masuk)), "\n")
+        print("Hasil:", pangkatkan(int(elkom3)), "\n")
     else:
         print("Hasil:", hasil, "\n")
