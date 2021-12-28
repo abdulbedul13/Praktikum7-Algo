@@ -11,5 +11,5 @@ def faktorial(angka):
         faktor *= i
     return faktor
 
-masuk = int(input("PROGRAM MENCARI NILAI FAKTORIAL DARI SEBUAH ANGKA\nMasukkan angka: "))
-print("Nilai faktorialnya adalah:", faktorial(masuk))
+input = int(input("PROGRAM MENCARI NILAI FAKTORIAL DARI SEBUAH ANGKA\nMasukkan angka: "))
+print("Nilai faktorialnya adalah:", faktorial(input))
